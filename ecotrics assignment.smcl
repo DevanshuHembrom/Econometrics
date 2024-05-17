@@ -1,0 +1,275 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}C:\Users\user\Desktop\ecotrics assignment.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}29 Mar 2024, 15:57:00
+
+{com}. summ
+
+{txt}    Variable {c |}        Obs        Mean    Std. Dev.       Min        Max
+{hline 13}{c +}{hline 57}
+{space 5}Country {c |}{res}          0
+{txt}{space 8}Year {c |}{res}        179        2023           0       2023       2023
+{txt}{space 8}Rank {c |}{res}          0
+{txt}{space 7}Total {c |}{res}        179     65.8324    23.96625       14.5      111.9
+{txt}S1Demograp~s {c |}{res}        179    5.955866    2.278726        1.1         10
+{txt}{hline 13}{c +}{hline 57}
+S2Refugees~s {c |}{res}        179    4.764246    2.373935         .5         10
+{txt}C3GroupGri~e {c |}{res}        179     5.57486    2.367757         .3        9.7
+{txt}E3HumanFli~n {c |}{res}        179    5.184358    2.079591         .4         10
+{txt}E2Economic~y {c |}{res}        179    5.323464    2.068546        1.4        9.6
+{txt}{space 3}E1Economy {c |}{res}        179    5.687151    2.200741          1        9.9
+{txt}{hline 13}{c +}{hline 57}
+P1StateLeg~y {c |}{res}        179    5.741341    2.901853         .3         10
+{txt}P2PublicSe~s {c |}{res}        179    5.459218    2.581299         .9         10
+{txt}P3HumanRig~s {c |}{res}        179    5.436872    2.602588         .4        9.9
+{txt}C1Security~s {c |}{res}        179    5.014525     2.37981         .3         10
+{txt}C2Factiona~s {c |}{res}        179    6.618436    2.427869          1         10
+{txt}{hline 13}{c +}{hline 57}
+X1External~n {c |}{res}        179    5.072067    2.577801         .3         10
+
+{com}. summ S1DemographicPressures, detail
+
+                  {txt}S1: Demographic Pressures
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}      1.2            1.1
+{txt} 5%    {res}      2.4            1.2
+{txt}10%    {res}        3            1.4       {txt}Obs         {res}        179
+{txt}25%    {res}      4.1            1.5       {txt}Sum of Wgt. {res}        179
+
+{txt}50%    {res}      5.9                      {txt}Mean          {res} 5.955866
+                        {txt}Largest       Std. Dev.     {res} 2.278726
+{txt}75%    {res}      8.1            9.7
+{txt}90%    {res}      8.9            9.7       {txt}Variance      {res} 5.192592
+{txt}95%    {res}      9.6            9.8       {txt}Skewness      {res}-.0500372
+{txt}99%    {res}      9.8             10       {txt}Kurtosis      {res} 1.904241
+
+{com}. summ S2RefugeesandIDPs,detail
+
+                    {txt}S2: Refugees and IDPs
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}      1.1             .5
+{txt} 5%    {res}      1.5            1.1
+{txt}10%    {res}      1.8            1.1       {txt}Obs         {res}        179
+{txt}25%    {res}      2.8            1.2       {txt}Sum of Wgt. {res}        179
+
+{txt}50%    {res}      4.5                      {txt}Mean          {res} 4.764246
+                        {txt}Largest       Std. Dev.     {res} 2.373935
+{txt}75%    {res}      6.5            9.6
+{txt}90%    {res}      8.3            9.8       {txt}Variance      {res} 5.635568
+{txt}95%    {res}      9.1             10       {txt}Skewness      {res} .3777024
+{txt}99%    {res}       10             10       {txt}Kurtosis      {res} 2.153523
+
+{com}. summ C3GroupGrievance,detail
+
+                     {txt}C3: Group Grievance
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}       .5             .3
+{txt} 5%    {res}        2             .5
+{txt}10%    {res}      2.3             .5       {txt}Obs         {res}        179
+{txt}25%    {res}      3.6             .7       {txt}Sum of Wgt. {res}        179
+
+{txt}50%    {res}      5.5                      {txt}Mean          {res}  5.57486
+                        {txt}Largest       Std. Dev.     {res} 2.367757
+{txt}75%    {res}      7.6            9.5
+{txt}90%    {res}      8.8            9.6       {txt}Variance      {res} 5.606275
+{txt}95%    {res}      9.3            9.7       {txt}Skewness      {res}-.0895089
+{txt}99%    {res}      9.7            9.7       {txt}Kurtosis      {res} 2.014634
+
+{com}. summ  E1Economy,detail
+
+                         {txt}E1: Economy
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}        1              1
+{txt} 5%    {res}      1.5              1
+{txt}10%    {res}      2.6              1       {txt}Obs         {res}        179
+{txt}25%    {res}      4.1            1.1       {txt}Sum of Wgt. {res}        179
+
+{txt}50%    {res}        6                      {txt}Mean          {res} 5.687151
+                        {txt}Largest       Std. Dev.     {res} 2.200741
+{txt}75%    {res}      7.2            9.5
+{txt}90%    {res}      8.5            9.6       {txt}Variance      {res} 4.843261
+{txt}95%    {res}      9.2            9.6       {txt}Skewness      {res}-.2947943
+{txt}99%    {res}      9.6            9.9       {txt}Kurtosis      {res} 2.414107
+
+{com}. summ P1StateLegitimacy,detail
+
+                    {txt}P1: State Legitimacy
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}       .3             .3
+{txt} 5%    {res}       .4             .3
+{txt}10%    {res}       .8             .3       {txt}Obs         {res}        179
+{txt}25%    {res}      3.6             .3       {txt}Sum of Wgt. {res}        179
+
+{txt}50%    {res}      6.4                      {txt}Mean          {res} 5.741341
+                        {txt}Largest       Std. Dev.     {res} 2.901853
+{txt}75%    {res}      8.1            9.8
+{txt}90%    {res}      9.3            9.9       {txt}Variance      {res} 8.420753
+{txt}95%    {res}      9.7            9.9       {txt}Skewness      {res}-.4189213
+{txt}99%    {res}      9.9             10       {txt}Kurtosis      {res} 2.048629
+
+{com}. summ C1SecurityApparatus,detail
+
+                   {txt}C1: Security Apparatus
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}       .3             .3
+{txt} 5%    {res}      1.2             .3
+{txt}10%    {res}      1.8             .4       {txt}Obs         {res}        179
+{txt}25%    {res}      3.3             .4       {txt}Sum of Wgt. {res}        179
+
+{txt}50%    {res}      5.1                      {txt}Mean          {res} 5.014525
+                        {txt}Largest       Std. Dev.     {res}  2.37981
+{txt}75%    {res}      6.7            9.6
+{txt}90%    {res}      8.3            9.7       {txt}Variance      {res} 5.663496
+{txt}95%    {res}      9.1            9.9       {txt}Skewness      {res} .0364979
+{txt}99%    {res}      9.9             10       {txt}Kurtosis      {res} 2.268114
+
+{com}. summ C2FactionalizedElites,detail
+
+                  {txt}C2: Factionalized Elites
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}      1.1              1
+{txt} 5%    {res}      1.8            1.1
+{txt}10%    {res}      2.7            1.4       {txt}Obs         {res}        179
+{txt}25%    {res}      4.9            1.4       {txt}Sum of Wgt. {res}        179
+
+{txt}50%    {res}      7.2                      {txt}Mean          {res} 6.618436
+                        {txt}Largest       Std. Dev.     {res} 2.427869
+{txt}75%    {res}      8.6            9.9
+{txt}90%    {res}      9.5             10       {txt}Variance      {res} 5.894546
+{txt}95%    {res}      9.7             10       {txt}Skewness      {res} -.637628
+{txt}99%    {res}       10             10       {txt}Kurtosis      {res} 2.366222
+
+{com}. summ X1ExternalIntervention,detail
+
+                  {txt}X1: External Intervention
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}       .4             .3
+{txt} 5%    {res}       .5             .4
+{txt}10%    {res}      1.1             .4       {txt}Obs         {res}        179
+{txt}25%    {res}      3.1             .4       {txt}Sum of Wgt. {res}        179
+
+{txt}50%    {res}      5.3                      {txt}Mean          {res} 5.072067
+                        {txt}Largest       Std. Dev.     {res} 2.577801
+{txt}75%    {res}        7             10
+{txt}90%    {res}      8.3             10       {txt}Variance      {res} 6.645058
+{txt}95%    {res}      9.4             10       {txt}Skewness      {res}-.0911419
+{txt}99%    {res}       10             10       {txt}Kurtosis      {res} 2.187248
+
+{com}. pwcorr
+{txt}(Country ignored because string variable)
+(Rank ignored because string variable)
+
+             {c |}     Year    Total S1Demo~s S2Refu~s C3Grou~e E3Huma~n E2Econ~y
+{hline 13}{c +}{hline 63}
+        Year {c |} {res}       . 
+       {txt}Total {c |} {res}       .   1.0000 
+{txt}S1Demograp~s {c |} {res}       .   0.8657   1.0000 
+{txt}S2Refugees~s {c |} {res}       .   0.8077   0.6797   1.0000 
+{txt}C3GroupGri~e {c |} {res}       .   0.7049   0.4999   0.6179   1.0000 
+{txt}E3HumanFli~n {c |} {res}       .   0.7291   0.6154   0.5736   0.3825   1.0000 
+{txt}E2Economic~y {c |} {res}       .   0.8348   0.8537   0.5934   0.4618   0.5558   1.0000 
+   {txt}E1Economy {c |} {res}       .   0.8411   0.7391   0.6680   0.4537   0.7220   0.7304 
+{txt}P1StateLeg~y {c |} {res}       .   0.8606   0.6571   0.5871   0.6446   0.4845   0.6662 
+{txt}P2PublicSe~s {c |} {res}       .   0.8970   0.9161   0.7205   0.4945   0.6903   0.8916 
+{txt}P3HumanRig~s {c |} {res}       .   0.8394   0.6730   0.5751   0.6337   0.4350   0.6523 
+{txt}C1Security~s {c |} {res}       .   0.8822   0.7409   0.6944   0.6301   0.6094   0.6993 
+{txt}C2Factiona~s {c |} {res}       .   0.8759   0.6793   0.6581   0.7096   0.5473   0.6477 
+{txt}X1External~n {c |} {res}       .   0.8107   0.6064   0.6864   0.4472   0.7321   0.6044 
+
+             {txt}{c |} E1Econ~y P1Stat~y P2Publ~s P3Huma~s C1Secu~s C2Fact~s X1Exte~n
+{hline 13}{c +}{hline 63}
+   E1Economy {c |} {res}  1.0000 
+{txt}P1StateLeg~y {c |} {res}  0.6229   1.0000 
+{txt}P2PublicSe~s {c |} {res}  0.8055   0.6683   1.0000 
+{txt}P3HumanRig~s {c |} {res}  0.5854   0.9104   0.6614   1.0000 
+{txt}C1Security~s {c |} {res}  0.7047   0.7378   0.7749   0.7584   1.0000 
+{txt}C2Factiona~s {c |} {res}  0.6429   0.8632   0.6764   0.7921   0.7506   1.0000 
+{txt}X1External~n {c |} {res}  0.7573   0.6220   0.6780   0.5803   0.6722   0.6911   1.0000 
+
+{com}. regress E2EconomicInequality S1DemographicPressures S2RefugeesandIDPs C3GroupGrievance E1Economy P1StateLegitimacy C1SecurityApparatus C2FactionalizedElites X1ExternalIntervention
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}       179
+{txt}{hline 13}{c +}{hline 34}   F(8, 170)       = {res}    69.49
+{txt}       Model {c |} {res} 583.268194         8  72.9085242   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 178.373259       170  1.04925446   {txt}R-squared       ={res}    0.7658
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.7548
+{txt}       Total {c |} {res} 761.641453       178  4.27888456   {txt}Root MSE        =   {res} 1.0243
+
+{txt}{hline 23}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}  E2EconomicInequality{col 24}{c |}      Coef.{col 36}   Std. Err.{col 48}      t{col 56}   P>|t|{col 64}     [95% Con{col 77}f. Interval]
+{hline 23}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+S1DemographicPressures {c |}{col 24}{res}{space 2} .5944469{col 36}{space 2} .0597237{col 47}{space 1}    9.95{col 56}{space 3}0.000{col 64}{space 4} .4765513{col 77}{space 3} .7123425
+{txt}{space 5}S2RefugeesandIDPs {c |}{col 24}{res}{space 2}-.0731941{col 36}{space 2} .0552008{col 47}{space 1}   -1.33{col 56}{space 3}0.187{col 64}{space 4}-.1821614{col 77}{space 3} .0357733
+{txt}{space 6}C3GroupGrievance {c |}{col 24}{res}{space 2}-.0081982{col 36}{space 2} .0507462{col 47}{space 1}   -0.16{col 56}{space 3}0.872{col 64}{space 4}-.1083721{col 77}{space 3} .0919756
+{txt}{space 13}E1Economy {c |}{col 24}{res}{space 2} .1645079{col 36}{space 2} .0644594{col 47}{space 1}    2.55{col 56}{space 3}0.012{col 64}{space 4} .0372639{col 77}{space 3} .2917519
+{txt}{space 5}P1StateLegitimacy {c |}{col 24}{res}{space 2} .1285043{col 36}{space 2} .0550659{col 47}{space 1}    2.33{col 56}{space 3}0.021{col 64}{space 4} .0198033{col 77}{space 3} .2372054
+{txt}{space 3}C1SecurityApparatus {c |}{col 24}{res}{space 2} .0369067{col 36}{space 2}  .061067{col 47}{space 1}    0.60{col 56}{space 3}0.546{col 64}{space 4}-.0836405{col 77}{space 3}  .157454
+{txt}{space 1}C2FactionalizedElites {c |}{col 24}{res}{space 2}-.0528793{col 36}{space 2} .0753738{col 47}{space 1}   -0.70{col 56}{space 3}0.484{col 64}{space 4}-.2016686{col 77}{space 3} .0959099
+{txt}X1ExternalIntervention {c |}{col 24}{res}{space 2} .0311889{col 36}{space 2} .0535298{col 47}{space 1}    0.58{col 56}{space 3}0.561{col 64}{space 4}-.0744799{col 77}{space 3} .1368577
+{txt}{space 17}_cons {c |}{col 24}{res}{space 2} .5107841{col 36}{space 2} .2676416{col 47}{space 1}    1.91{col 56}{space 3}0.058{col 64}{space 4}-.0175449{col 77}{space 3} 1.039113
+{txt}{hline 23}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}. vif
+
+{txt}    Variable {c |}       VIF       1/VIF  
+{hline 13}{c +}{hline 22}
+C2Factiona~s {c |} {res}     5.68    0.176023
+{txt}P1StateLeg~y {c |} {res}     4.33    0.230858
+{txt}C1Security~s {c |} {res}     3.58    0.279102
+{txt}{space 3}E1Economy {c |} {res}     3.41    0.292921
+{txt}X1External~n {c |} {res}     3.23    0.309578
+{txt}S1Demograp~s {c |} {res}     3.14    0.318261
+{txt}S2Refugees~s {c |} {res}     2.91    0.343267
+{txt}C3GroupGri~e {c |} {res}     2.45    0.408300
+{txt}{hline 13}{c +}{hline 22}
+    Mean VIF {c |} {res}     3.59
+
+{com}. hettest
+
+{txt}Breusch-Pagan / Cook-Weisberg test for heteroskedasticity 
+         Ho: Constant variance
+{p 9 20}Variables: fitted values of E2EconomicInequality
+
+{col 10}chi2({res}1{txt}){col 23}={res}     0.22
+{txt}{col 10}Prob > chi2{col 23}={res}   0.6385
+
+{com}. graph box E2EconomicInequality
+{res}
+{com}. graph box  S1DemographicPressures
+{res}
+{com}. graph box S2RefugeesandIDPs
+{res}
+{com}. graph box C3GroupGrievance
+{res}
+{com}. graph box E1Economy
+{res}
+{com}. P1StateLegitimacy graph box 
+{err}command {bf}P1StateLegitimacy{sf} is unrecognized
+{txt}{search r(199), local:r(199);}
+
+{com}. graph box P1StateLegitimacy
+{res}
+{com}. graph box C1SecurityApparatus
+{res}
+{com}. graph box C2FactionalizedElites
+{res}
+{com}. graph box X1ExternalIntervention
+{res}
+{com}. log close
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}C:\Users\user\Desktop\ecotrics assignment.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res}29 Mar 2024, 16:05:19
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}
